@@ -24,8 +24,9 @@ import qrcode
 # ==========================================
 # CONFIGURATION SECTION (Fully Editable)
 # ==========================================
-BOT_TOKEN = os.getenv("BOT_TOKEN", "").strip()
-ADMIN_ID_RAW = os.getenv("ADMIN_ID", "").strip()
+BOT_TOKEN = os.getenv("9127415581:AAElMlsEBcQYQl4wUdPk6wxbzMXrY3xe0wc
+", "").strip()
+ADMIN_ID_RAW = os.getenv("8597750635", "").strip()
 
 if not BOT_TOKEN:
     raise RuntimeError("BOT_TOKEN variable missing!")
@@ -39,13 +40,13 @@ ADMIN_ID = int(ADMIN_ID_RAW)
 ADMIN_IDS = {ADMIN_ID}
 
 # UPI Payment Configuration
-UPI_ID = os.getenv("UPI_ID", "merchant@upi")
+UPI_ID = os.getenv("UPI_ID", "paytm.s3jcvzz@pty")
 PAYEE_NAME = os.getenv("PAYEE_NAME", " Premium")
 
 # External URLs
-PROOF_URL = "https://t.me/trustbyelvidys"
-SUPPORT_URL = "https://t.me/IGCCKINGHU"
-CHANNEL_USERNAME = "@studyof12thc"
+PROOF_URL = "https://t.me/sassy_priyanka"
+SUPPORT_URL = "https://t.me/sassy_priyanka"
+CHANNEL_USERNAME = "@sassy_priyanka"
 
 # Start Message Settings
 START_IMAGE_URL = "https://ibb.co/GhbLV5P"
